@@ -26,9 +26,28 @@ function App() {
   return (
     <div className="App">
       <h1>Connect React Is with Laravel</h1>
+
+{/* <table className='tm-4'>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+</table> */}
+
       {
         students.map((student, i )=> {
           return(
+
+          // <tr>
+          //   <td>{student.stuname}</td>
+          //   <td>{student.email}</td>
+          // </tr>
+
             <h2 key={i}>{student.stuname} {student.email}</h2>
           )
         })
