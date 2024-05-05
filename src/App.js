@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Connect React Is with Laravel</h1>
+      <h1>Connect React In with Laravel</h1>
 
 {/* <table className='tm-4'>
     <thead>
